@@ -1,11 +1,18 @@
 {
+  "homepage": "https://github.com/daniel-avila-z/prueba-react-junior/",
+  "description": "",
   "name": "prueba-react-junior",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daniel-avila-z/prueba-react-junior"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -14,6 +21,7 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "4.0.4",
+    "gh-pages": "^6.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
