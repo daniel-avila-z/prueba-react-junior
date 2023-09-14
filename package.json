@@ -8,6 +8,7 @@
     "type": "git",
     "url": "https://github.com/daniel-avila-z/prueba-react-junior"
   },
+  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
